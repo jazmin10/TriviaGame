@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+<head>
+	<meta charset='UTF-8'/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Trivia Game</title>
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div>
+		<div>
+			<h1>Totally Trivia Game!</h1>
+		</div>
+
+		<div id='quiz'>
+			<button id='startGame'>START</button>
+			<h2 id='timeRemaining'></h2>
+			<h2 id='question'></h2>
+			<h2 id='result'></h2>
+			<h3 id='answer'></h3>
+			<div>
+				<button class='choices' id='choice1' value="option1"></button>
+				<button class='choices' id='choice2' value="option2"></button>
+				<button class='choices' id='choice3' value="option3"></button>
+				<button class='choices' id='choice4' value="option4"></button>
+			</div>
+			<!-- <br/> -->
+			<div id="image"></div>
+		</div>
+
+		<div id='results'>
+			<p id="correct"></p>
+			<p id="incorrect"></p>
+			<p id="unanswered"></p>
+		</div>
+
+		<button id='startOver'>START OVER</button>
+
+	</div>
+
+	<script type='text/javascript' src='assets/javascript/app.js'></script>
+
+</body>
+</html>
