@@ -1,0 +1,122 @@
+/*Homework #5: Trivia Game*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/gryffindor.jpg");
+	font-family: 'Jim Nightshade', cursive;
+	letter-spacing: 1px;
+}
+
+#main {
+	background-image: url("../images/parchment.png");
+	width: 75%;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 20px;
+	height: 740px;
+}
+
+#harryLogo {
+	width: 40%;
+	margin-left: 30%;
+	height: 140px;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+}
+
+#quiz {
+	text-align: center;
+	width: 100%;
+	padding: 20px;
+}
+
+#startGame {
+	margin-top: 150px;
+	border-radius: 50px;
+	font-size: 40px;
+	width: 60%;
+	background-color: #580303;
+	color: #f9d306;
+	border: none;
+	padding: 20px;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+#startGame:hover {
+	background-color: #f7d001;
+	color: #580303;
+
+}
+
+.choices {
+    font-size: 35px;
+    width: 50%;
+    font-family: 'Jim Nightshade', cursive;
+
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.choices:hover {
+	background-color: #580303;
+	color: #f9d306;
+	border-radius: 25px;
+}
+
+#results {
+	text-align: center;
+}
+
+#timeRemaining {
+	margin-bottom: 2px;
+	font-size: 30px;
+}
+
+#question {
+	margin: 0;
+	font-size: 40px;
+}
+
+#result {
+	margin: 0;
+	font-size: 40px;
+}
+
+#answer {
+	margin: 0;
+	font-size: 25px;
+}
+
+#image {
+	margin: 5px;
+}
+
+p {
+	margin: 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#startOver {
+	margin-top: 20px;
+	border-radius: 50px;
+	font-size: 40px;
+	width: 60%;
+	background-color: #580303;
+	color: #f9d306;
+	border: none;
+	padding: 20px;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+#startOver:hover {
+	background-color: #f7d001;
+	color: #580303;
+}

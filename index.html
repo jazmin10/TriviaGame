@@ -1,46 +1,57 @@
+<!-- Homework #5: Trivia Game -->
 <!DOCTYPE html>
-<html lang='en-us'>
+<html lang="en-us">
 <head>
-	<meta charset='UTF-8'/>
+	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Trivia Game</title>
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Jim+Nightshade" rel="stylesheet">
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-
-	<div>
+	<div id="main">
+		<!-- Header -->
 		<div>
+			<img id="harryLogo" src="https://www.tenstickers-ireland.com/wall-stickers/img/preview/harry-potter-logo-wall-sticker-2424.png" alt="Harry Logo"/>
+
 			<h1>Totally Trivia Game!</h1>
 		</div>
+		<!-- Quiz Section -->
+		<div id="quiz">
+			<button id="startGame">START</button>
 
-		<div id='quiz'>
-			<button id='startGame'>START</button>
-			<h2 id='timeRemaining'></h2>
-			<h2 id='question'></h2>
-			<h2 id='result'></h2>
-			<h3 id='answer'></h3>
+			<h2 id="timeRemaining"></h2>
+
+			<h2 id="question"></h2>
+
+			<h2 id="result"></h2>
+
+			<h3 id="answer"></h3>
+			<!-- Multiple Choice Section -->
 			<div>
-				<button class='choices' id='choice1' value="option1"></button>
-				<button class='choices' id='choice2' value="option2"></button>
-				<button class='choices' id='choice3' value="option3"></button>
-				<button class='choices' id='choice4' value="option4"></button>
+				<button class="choices" id="choice1" value="option1"></button>
+				<button class="choices" id="choice2" value="option2"></button>
+				<button class="choices" id="choice3" value="option3"></button>
+				<button class="choices" id="choice4" value="option4"></button>
 			</div>
-			<!-- <br/> -->
+			<!-- Answer Image Section -->
 			<div id="image"></div>
+			<!-- Quiz Final Results -->
+			<div id="results">
+				<p id="correct"></p>
+				<p id="incorrect"></p>
+				<p id="unanswered"></p>
+			</div>
+
+			<button id="startOver">START OVER</button>
 		</div>
-
-		<div id='results'>
-			<p id="correct"></p>
-			<p id="incorrect"></p>
-			<p id="unanswered"></p>
-		</div>
-
-		<button id='startOver'>START OVER</button>
-
 	</div>
 
-	<script type='text/javascript' src='assets/javascript/app.js'></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
 </html>
