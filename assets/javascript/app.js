@@ -154,7 +154,7 @@ $(document).ready(function() {
 			incorrectQuestions++;
 		}
 
-		// Run clear function after 5 seconds
+		// Run reset function after 5 seconds
 		nextQuestion = setTimeout(reset, 5000);
 	}
 
