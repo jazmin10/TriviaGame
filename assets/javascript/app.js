@@ -1,4 +1,4 @@
-// Homework #5: Trivia Game
+// Trivia Game
 
 $(document).ready(function() { 
 	// Questions, Options, Answers, and Images
